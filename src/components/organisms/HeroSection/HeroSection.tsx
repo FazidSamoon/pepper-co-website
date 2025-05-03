@@ -15,7 +15,7 @@ const HeroSection: React.FC = () => {
   };
 
   return (
-    <div id="home" className="relative h-screen  w-full ">
+    <div id="home" className="relative h-screen w-full ">
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-black/50 z-10"></div>
         <div className="relative h-full w-full">
@@ -29,7 +29,7 @@ const HeroSection: React.FC = () => {
         </div>
       </div>
 
-      <div className="relative z-20 flex flex-col items-center justify-center px-6 pt-20 h-full">
+      <div className="relative z-20 flex flex-col items-center justify-center pt-20 h-full">
         <div className="flex flex-col items-center justify-center flex-[3]">
           <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-white font-serif text-center mb-4 md:mb-6">
             World-Class Pepper,
@@ -46,11 +46,11 @@ const HeroSection: React.FC = () => {
           </button>
         </div>
 
-        <div className=" w-full justify-end flex-1 bg-black">
-          <div className="hidden md:block absolute bottom-0 transform -translate-x-1/2 left-1/2 ">
-            <div className="relative w-64 h-64 lg:w-80 lg:h-80">
+        <div className="w-full justify-end flex-1 bg-black">
+          <div className="block absolute bottom-0 transform -translate-x-1/2 left-1/2 ">
+            <div className="relative w-70 h-70 lg:w-80 lg:h-80">
               <div className="absolute inset-0 rounded-full flex items-center justify-center p-2">
-                <div className="absolute w-full h-full animate-slow-spin">
+                {/* <div className="absolute w-full h-full">
                   <svg
                     className="absolute inset-0 w-full h-full"
                     viewBox="0 0 300 300"
@@ -84,9 +84,44 @@ const HeroSection: React.FC = () => {
                       </textPath>
                     </text>
                   </svg>
-                </div>
+                </div> */}
 
-                <div className="z-10 w-48 h-48 lg:w-60 lg:h-60 rounded-full overflow-hidden bg-[#454545] flex items-center justify-center">
+<div className="absolute w-full h-full">
+        <svg
+          className="absolute inset-0 w-full h-full"
+          viewBox="0 0 300 300"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <path
+              id="circlePath"
+              d="
+                M 150, 150
+                m -120, 0
+                a 120,120 0 1,1 240,0
+                a 120,120 0 1,1 -240,0
+              "
+            />
+          </defs>
+          <text
+            fill="white"
+            fontSize="14"
+            fontFamily="Butler, serif"
+            letterSpacing="2"
+          >
+            <textPath
+              href="#circlePath"
+              startOffset="0%"
+              textAnchor="start"
+              dy="5"
+            >
+              Premium Quality • Global Shipping • Sustainable Farming •
+            </textPath>
+          </text>
+        </svg>
+      </div>
+
+                <div className="z-10 w-50 h-50 lg:w-60 lg:h-60 rounded-full overflow-hidden bg-[#454545] flex items-center justify-center">
                   <Image
                     src="/images/pepper-pile.png"
                     alt="Premium peppers"
@@ -99,7 +134,6 @@ const HeroSection: React.FC = () => {
             </div>
           </div>
         </div>
-        {/* Circular feature - Only visible on tablet and larger screens */}
       </div>
     </div>
   );
