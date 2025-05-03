@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Inter, Playfair_Display } from "next/font/google";
 import type { Metadata } from "next";
 import Navbar from "@/components/molecules/Navbar/Navbar";

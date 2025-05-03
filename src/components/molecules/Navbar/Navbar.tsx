@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Link from "next/link";
 import MobileNav from "./MobileNav";
 
 const Navbar = () => {
@@ -49,7 +48,7 @@ const Navbar = () => {
     const section = document.getElementById(sectionId);
     if (section) {
       window.scrollTo({
-        top: section.offsetTop - 80, // Offset for navbar height
+        top: section.offsetTop - 80,
         behavior: "smooth",
       });
     }
