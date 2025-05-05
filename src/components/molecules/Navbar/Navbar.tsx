@@ -7,14 +7,12 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      // When scrolled past hero section height
       if (window.scrollY > window.innerHeight - 100) {
         setScrolled(true);
       } else {
         setScrolled(false);
       }
 
-      // Detect active section for highlighting nav items
       const sections = [
         "home",
         "about",

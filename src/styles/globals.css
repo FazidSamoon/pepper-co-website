@@ -18,6 +18,9 @@
     --foreground: #ededed;
   }
 }
+h1, h2, h3, h4, h5, h6, span, button {
+  font-family: var(--font-butler);
+}
 
 body {
   background: var(--background);
