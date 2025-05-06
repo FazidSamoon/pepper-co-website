@@ -3,7 +3,7 @@ import Image from "next/image";
 import { ChevronDown, ChevronUp } from "lucide-react";
 
 const FAQSection = () => {
-  const [openQuestionIndex, setOpenQuestionIndex] = useState(0);
+  const [openQuestionIndex, setOpenQuestionIndex] = useState<number | null>(0);
 
   const faqs = [
     {
@@ -33,7 +33,7 @@ const FAQSection = () => {
     },
   ];
 
-  const toggleQuestion = (index) => {
+  const toggleQuestion = (index: number) => {
     setOpenQuestionIndex(openQuestionIndex === index ? null : index);
   };
 
