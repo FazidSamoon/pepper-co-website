@@ -6,6 +6,7 @@ import HeroSection from "@/components/organisms/HeroSection/HeroSection";
 import OrgIntro from "@/components/organisms/OrgIntro/OrgIntro";
 import Products from "@/components/organisms/Products/Products";
 import PhotoGallery from "@/components/organisms/PhotoGalery/PhotoGallery";
+import FAQSection from "@/components/organisms/FAQSection/FAQSection";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -81,6 +82,7 @@ export default function Home() {
           <OrgIntro />
           <Products />
           <PhotoGallery />
+          <FAQSection />
         </div>
       </div>
     </div>
