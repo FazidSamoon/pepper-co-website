@@ -5,6 +5,7 @@ import Navbar from "@/components/molecules/Navbar/Navbar";
 import HeroSection from "@/components/organisms/HeroSection/HeroSection";
 import OrgIntro from "@/components/organisms/OrgIntro/OrgIntro";
 import Products from "@/components/organisms/Products/Products";
+import PhotoGallery from "@/components/organisms/PhotoGalery/PhotoGallery";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -79,6 +80,7 @@ export default function Home() {
         <div className=" ">
           <OrgIntro />
           <Products />
+          <PhotoGallery />
         </div>
       </div>
     </div>

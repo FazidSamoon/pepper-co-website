@@ -14,6 +14,29 @@ module.exports = {
         '2xl': '1536px',
       },
       extend: {
+        typography: {
+            DEFAULT: {
+                css: {
+                    maxWidth: '100%',
+                    img: {
+                        marginTop: '1.5em',
+                        marginBottom: '1.5em',
+                    },
+                    table: {
+                        borderCollapse: 'collapse',
+                        width: '100%',
+                    },
+                    'th,td': {
+                        padding: '0.75rem',
+                        borderWidth: '1px',
+                        borderColor: 'var(--tw-prose-td-borders)',
+                    },
+                    th: {
+                        backgroundColor: 'rgba(236, 253, 245, 1)',
+                    },
+                },
+            },
+        },
         fontFamily: {
             butler: ['var(--font-butler)', 'serif'],
             serif: ['var(--font-playfair)', 'Playfair Display', 'Georgia', 'serif'],

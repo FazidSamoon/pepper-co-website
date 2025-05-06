@@ -1,0 +1,29 @@
+[
+  {
+    "id": "ceylon-black-pepper",
+    "title": "Ceylon Black Pepper: The King of Spices",
+    "description": "Discover the rich history and unique characteristics of Ceylon Black Pepper from Sri Lanka.",
+    "date": "2025-04-12",
+    "author": "Amara Fernando",
+    "thumbnail": "/images/ceylon-black-pepper-thumb.jpg",
+    "markdownPath": "/blogs/ceylon-black-pepper.md"
+  },
+  {
+    "id": "pepper-cultivation",
+    "title": "Sustainable Pepper Cultivation in Sri Lanka",
+    "description": "How traditional farmers in Sri Lanka are maintaining sustainable cultivation practices for pepper.",
+    "date": "2025-03-28",
+    "author": "Dinesh Jayawardena",
+    "thumbnail": "/images/pepper-cultivation-thumb.jpg",
+    "markdownPath": "/blogs/pepper-cultivation.md"
+  },
+  {
+    "id": "pepper-industry-growth",
+    "title": "The Growth of Sri Lanka's Pepper Industry",
+    "description": "An analysis of the recent growth in Sri Lanka's pepper export industry and global market position.",
+    "date": "2025-02-15",
+    "author": "Lakshmi Perera",
+    "thumbnail": "/images/pepper-industry-thumb.jpg",
+    "markdownPath": "/blogs/pepper-industry-growth.md"
+  }
+]

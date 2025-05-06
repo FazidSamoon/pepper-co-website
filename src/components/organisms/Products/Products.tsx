@@ -25,11 +25,11 @@ const Products = () => {
   return (
     <div
       id="products"
-      className=" bg-black text-white flex items-center justify-center gap-4 p-10 md:p-20 h-full lg:h-screen"
+      className=" bg-black text-white flex items-center justify-center gap-4 p-10 md:p-44 h-full"
     >
       <div className="flex-col items-center flex max-w-7xl">
         <div className="flex flex-col items-center">
-          <span className="text-2xl md:text-6xl md:leading-20  font-normal">
+          <span className="text-2xl md:text-6xl md:leading-20 font-normal text-center">
             Our Black Pepper Products
           </span>
           <span className="text-base md:text-2xl mt-4 text-center">

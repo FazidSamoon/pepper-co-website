@@ -12,7 +12,7 @@ const OrgIntro = () => {
   return (
     <div
       id="about"
-      className="h-full lg:h-screen bg-white text-black flex items-center justify-center gap-4 p-10 md:p-20"
+      className="h-full lg:h-screen bg-[#CCCCCC] text-black flex items-center justify-center gap-4 p-10 md:p-20"
     >
       <div className="flex-col lg:flex-row items-center flex max-w-7xl">
         <div className="lg:flex-1">
