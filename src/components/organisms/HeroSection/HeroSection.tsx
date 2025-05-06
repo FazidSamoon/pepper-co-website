@@ -15,9 +15,9 @@ const HeroSection: React.FC = () => {
   };
 
   return (
-    <div id="home" className="relative h-screen w-full ">
+    <div id="home" className="home relative h-screen w-full ">
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-black/50 z-10"></div>
+        <div className="absolute inset-0 bg-black/25 z-10"></div>
         <div className="relative h-full w-full">
           <Image
             src="/images/pepper-background.png"

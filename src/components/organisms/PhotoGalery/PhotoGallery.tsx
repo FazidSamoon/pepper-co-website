@@ -41,7 +41,6 @@ const PhotoGallery = () => {
     },
   ];
 
-  // Reorder for mobile: swap positions 3 and 4
   const orderedImages = isMobile
     ? [imageCatalog[0], imageCatalog[1], imageCatalog[3], imageCatalog[2]]
     : imageCatalog;
@@ -49,7 +48,7 @@ const PhotoGallery = () => {
   return (
     <div
       id="gallery"
-      className="h-full bg-[#CCCCCC] text-black flex items-center justify-center gap-4 p-10 md:p-20"
+      className="h-full bg-[#ffffff] text-black flex items-center justify-center gap-4 p-10 md:p-20"
     >
       <div className="flex-col items-center flex max-w-7xl">
         <div className="flex flex-col">
