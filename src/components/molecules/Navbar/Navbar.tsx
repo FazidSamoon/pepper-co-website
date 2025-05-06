@@ -57,9 +57,9 @@ const Navbar = () => {
     { id: "about", label: "About" },
     { id: "products", label: "Product" },
     { id: "gallery", label: "Gallery" },
-    { id: "blog", label: "Blog" },
-    { id: "contact", label: "Contact" },
+    // { id: "blog", label: "Blog" },
     { id: "faq", label: "FAQ" },
+    { id: "contact", label: "Contact" },
   ];
 
   return (
