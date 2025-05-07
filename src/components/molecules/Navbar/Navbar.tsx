@@ -64,7 +64,7 @@ const Navbar = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 px-6 md:px-10 lg:px-16 py-4 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 px-6 md:px-10 lg:px-16 py-4 transition-all font-butler duration-300 ${
         scrolled ? "bg-black/80 backdrop-blur-sm shadow-lg" : "bg-transparent"
       }`}
     >
@@ -74,7 +74,7 @@ const Navbar = () => {
         </div>
 
         <nav className="hidden md:block w-full">
-          <ul className="flex justify-center space-x-4 md:space-x-6 lg:space-x-12 text-white font-medium">
+          <ul className="flex justify-center space-x-4 md:space-x-6 lg:space-x-12 text-white font-medium font-butler">
             {navItems.map((item) => (
               <li key={item.id}>
                 <a
@@ -82,7 +82,7 @@ const Navbar = () => {
                   onClick={(e) => handleNavClick(e, item.id)}
                   className={`hover:text-gray-300 transition relative pb-1 ${
                     activeSection === item.id
-                      ? "after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-white"
+                      ? "after:absolute after:bottom-0 font-butler after:left-0 after:w-full after:h-0.5 after:bg-white"
                       : ""
                   }`}
                 >

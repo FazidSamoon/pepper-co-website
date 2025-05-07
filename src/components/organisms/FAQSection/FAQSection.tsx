@@ -40,7 +40,7 @@ const FAQSection = () => {
   return (
     <div
       id="faq"
-      className=" relative h-full  text-white flex items-center justify-center gap-4 p-10 md:p-20"
+      className="relative h-full md:h-screen text-white flex items-center justify-center gap-4 p-10 md:p-20"
     >
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-black/50 z-10"></div>

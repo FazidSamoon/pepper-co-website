@@ -18,7 +18,7 @@
     --foreground: #ededed;
   }
 }
-h1, h2, h3, h4, h5, h6, span, button {
+h1, h2, h3, h4, h5, h6, span, button, a {
   font-family: var(--font-butler);
 }
 

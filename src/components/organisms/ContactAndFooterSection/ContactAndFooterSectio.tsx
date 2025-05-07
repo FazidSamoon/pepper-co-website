@@ -32,6 +32,20 @@ const ContactFooterSection = () => {
     });
   };
 
+  const handleNavClick = (
+    e: React.MouseEvent<HTMLAnchorElement>,
+    sectionId: string
+  ) => {
+    e.preventDefault();
+    const section = document.getElementById(sectionId);
+    if (section) {
+      window.scrollTo({
+        top: section.offsetTop - 80,
+        behavior: "smooth",
+      });
+    }
+  };
+
   return (
     <div id="contact">
       <div className="h-full lg:h-screen bg-white text-black flex items-center justify-center gap-4 p-10 md:p-20">
@@ -146,7 +160,8 @@ const ContactFooterSection = () => {
               <ul className="flex flex-wrap justify-center gap-4 md:gap-8">
                 <li>
                   <Link
-                    href="/about"
+                    href="#about"
+                    onClick={(e) => handleNavClick(e, "about")}
                     className="hover:text-gray-300 transition-colors"
                   >
                     About
@@ -154,7 +169,8 @@ const ContactFooterSection = () => {
                 </li>
                 <li>
                   <Link
-                    href="/products"
+                    href="#products"
+                    onClick={(e) => handleNavClick(e, "products")}
                     className="hover:text-gray-300 transition-colors"
                   >
                     Products
@@ -162,7 +178,8 @@ const ContactFooterSection = () => {
                 </li>
                 <li>
                   <Link
-                    href="/faq"
+                    href="#faq"
+                    onClick={(e) => handleNavClick(e, "faq")}
                     className="hover:text-gray-300 transition-colors"
                   >
                     FAQs
@@ -170,7 +187,8 @@ const ContactFooterSection = () => {
                 </li>
                 <li>
                   <Link
-                    href="/testimonials"
+                    href="#testimonials"
+                    onClick={(e) => handleNavClick(e, "testimonials")}
                     className="hover:text-gray-300 transition-colors"
                   >
                     Testimonials
@@ -178,7 +196,8 @@ const ContactFooterSection = () => {
                 </li>
                 <li>
                   <Link
-                    href="/contact"
+                    href="#contact"
+                    onClick={(e) => handleNavClick(e, "contact")}
                     className="hover:text-gray-300 transition-colors"
                   >
                     Contact
